@@ -1,0 +1,41 @@
+# Zephyr / CMake build artifacts
+/build/
+**/build/
+*.elf
+*.bin
+*.hex
+*.uf2
+*.map
+*.a
+*.o
+*.d
+*.lst
+*.log
+
+# CMake / Ninja output
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+*.ninja
+build.ninja
+rules.ninja
+
+# Generated Zephyr files
+/zephyr/
+**/zephyr/
+/.west/
+**/.west/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Python virtual environments
+.venv/
+venv/
+__pycache__/
